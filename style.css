@@ -198,14 +198,37 @@ h2 {
     margin-left: 20px;
 }
 
-.block-footer {
-    background: #454545;
-    padding: 30px 50px 20px 50px;
+.contacts-wrap {
+    padding: 50px;
+    background-color: #f8f8f8;
 }
 
+.contacts p {
+    font-size: 18px;
+}
 
-footer img {
-    width: 100px;
+.contacts {
+    width: 40%;
+    float: left;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+
+.map {
+    width: 60%;
+    float: left;
+}
+
+.contacts-wrap::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+/*****FOOTER*************/
+.block-footer {
+    background: #454545;
+    padding: 20px 50px;
 }
 
 footer ul li {
@@ -218,12 +241,10 @@ footer ul li a {
     color: #f8f8f8;
 }
 
-.contacts p,
-.contacts a {
-    color: #f8f8f8;
-    line-height: 130%;
+.footer-logo {
+    width: 140px;
 }
 
-.contacts img {
-    width: 25px;
+.footer-logo img {
+    width: 100%;
 }
